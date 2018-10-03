@@ -14,7 +14,7 @@ int main()
     vector<int>::iterator it;
     cout<<"Enter number of elements : ";
     cin>>n;
-    cout<<"Enter element to search : ";
+    cout<<"Enter element to search : "<<endl;
     cin>>key;
     for(int i=0;i<n;i++) //Pushing elements to vector
     {
