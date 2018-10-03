@@ -8,7 +8,7 @@ public class LinearSearch
    {
       Scanner in=new Scanner(System.in);
       System.out.println("Enter the no. of input integers:");
-      int n=in.nextInt();
+      int n=in.next();
        int arr[] = new int[n];
       
        
