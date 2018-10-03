@@ -25,7 +25,7 @@ public class LinearSearch {
 
         //Fill the array
         for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = scanner.nextInt();
+            numbers[i] = scanner.next();
         }
 
         System.out.println("Enter the target: ");
