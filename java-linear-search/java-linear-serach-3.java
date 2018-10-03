@@ -38,7 +38,7 @@ public class LinearSearch {
                 System.out.println("Found at index: "+x);
             }
         }
-        if(!found){
+        else{
             System.out.println("Not found");
         }
         //Close the scanner
