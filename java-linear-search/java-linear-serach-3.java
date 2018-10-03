@@ -21,7 +21,7 @@ public class LinearSearch {
         Random rand = new Random()
         //Create the scanner instance and the array of numbers
         Scanner scanner = new Scanner(System.in);
-        int len = scanner.nextInt();
+        int len = scanner.next();
         int[] array = new int[len];
 
         for(int x=0; x<len; x++){
